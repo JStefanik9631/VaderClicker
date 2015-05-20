@@ -13,5 +13,7 @@
 - (instancetype)init;
 - (void)tryPlayMusic;
 - (void)playSystemSound;
+- (void)stop;
+- (void)play;
 
 @end

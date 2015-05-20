@@ -16,6 +16,8 @@
 		3F0196441AFA62C10096BEDA /* SJFinalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0196431AFA62C10096BEDA /* SJFinalTests.m */; };
 		3F2711441B0CD68A0086AA6D /* Audio.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2711431B0CD68A0086AA6D /* Audio.m */; };
 		3F2711461B0CDC630086AA6D /* Vader.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2711451B0CDC630086AA6D /* Vader.caf */; };
+		3FDC4A2F1B0D084B005F168B /* Galactic_empire_emblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC4A2D1B0D084B005F168B /* Galactic_empire_emblem.png */; };
+		3FDC4A301B0D084B005F168B /* sequence_generator_starscape_hires.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC4A2E1B0D084B005F168B /* sequence_generator_starscape_hires.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		3F2711421B0CD68A0086AA6D /* Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audio.h; sourceTree = "<group>"; };
 		3F2711431B0CD68A0086AA6D /* Audio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Audio.m; sourceTree = "<group>"; };
 		3F2711451B0CDC630086AA6D /* Vader.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Vader.caf; path = ../../Vader.caf; sourceTree = "<group>"; };
+		3FDC4A2D1B0D084B005F168B /* Galactic_empire_emblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Galactic_empire_emblem.png; path = ../../Galactic_empire_emblem.png; sourceTree = "<group>"; };
+		3FDC4A2E1B0D084B005F168B /* sequence_generator_starscape_hires.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sequence_generator_starscape_hires.png; path = ../../sequence_generator_starscape_hires.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				3F2711451B0CDC630086AA6D /* Vader.caf */,
+				3FDC4A2D1B0D084B005F168B /* Galactic_empire_emblem.png */,
+				3FDC4A2E1B0D084B005F168B /* sequence_generator_starscape_hires.png */,
 				3F0196281AFA62C00096BEDA /* Info.plist */,
 				3F0196291AFA62C00096BEDA /* main.m */,
 			);
@@ -130,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F0196231AFA62C00096BEDA /* SJFinal */ = {
+		3F0196231AFA62C00096BEDA /* Vader Clicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F0196471AFA62C10096BEDA /* Build configuration list for PBXNativeTarget "SJFinal" */;
+			buildConfigurationList = 3F0196471AFA62C10096BEDA /* Build configuration list for PBXNativeTarget "Vader Clicker" */;
 			buildPhases = (
 				3F0196201AFA62C00096BEDA /* Sources */,
 				3F0196211AFA62C00096BEDA /* Frameworks */,
@@ -142,7 +148,7 @@
 			);
 			dependencies = (
 			);
-			name = SJFinal;
+			name = "Vader Clicker";
 			productName = SJFinal;
 			productReference = 3F0196241AFA62C00096BEDA /* SJFinal.app */;
 			productType = "com.apple.product-type.application";
@@ -196,7 +202,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F0196231AFA62C00096BEDA /* SJFinal */,
+				3F0196231AFA62C00096BEDA /* Vader Clicker */,
 				3F01963C1AFA62C10096BEDA /* SJFinalTests */,
 			);
 		};
@@ -207,8 +213,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDC4A2F1B0D084B005F168B /* Galactic_empire_emblem.png in Resources */,
 				3F0196331AFA62C00096BEDA /* Main.storyboard in Resources */,
 				3F0196381AFA62C00096BEDA /* LaunchScreen.xib in Resources */,
+				3FDC4A301B0D084B005F168B /* sequence_generator_starscape_hires.png in Resources */,
 				3F0196351AFA62C00096BEDA /* Images.xcassets in Resources */,
 				3F2711461B0CDC630086AA6D /* Vader.caf in Resources */,
 			);
@@ -248,7 +256,7 @@
 /* Begin PBXTargetDependency section */
 		3F01963F1AFA62C10096BEDA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F0196231AFA62C00096BEDA /* SJFinal */;
+			target = 3F0196231AFA62C00096BEDA /* Vader Clicker */;
 			targetProxy = 3F01963E1AFA62C10096BEDA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -415,7 +423,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F0196471AFA62C10096BEDA /* Build configuration list for PBXNativeTarget "SJFinal" */ = {
+		3F0196471AFA62C10096BEDA /* Build configuration list for PBXNativeTarget "Vader Clicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F0196481AFA62C10096BEDA /* Debug */,

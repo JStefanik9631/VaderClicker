@@ -34,7 +34,7 @@
     if (self.backgroundMusicPlaying || [self.audioSession isOtherAudioPlaying]) {
         return;
     }
-    
+    [self.backgroundMusicPlayer stop];
     [self.backgroundMusicPlayer prepareToPlay];
     [self.backgroundMusicPlayer play];
     self.backgroundMusicPlaying = YES;
@@ -74,6 +74,15 @@
 - (void) audioPlayerEndInterruption: (AVAudioPlayer *) player withOptions:(NSUInteger) flags{
     [self tryPlayMusic];
     self.backgroundMusicInterrupted = NO;
+}
+- (void) stop
+{
+    [_backgroundMusicPlayer stop];
+}
+
+-(void) play
+{
+    [_backgroundMusicPlayer play];
 }
 
 

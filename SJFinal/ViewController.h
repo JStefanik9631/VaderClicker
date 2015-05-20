@@ -21,6 +21,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *goldUpgradeCost;
 @property (strong, nonatomic) IBOutlet UILabel *damageUpgradeCost;
 @property int killCount;
+@property int x;
 
 - (IBAction)levelOne:(id)sender;
 - (IBAction)levelTwo:(id)sender;
@@ -30,5 +31,7 @@
 - (IBAction)Attack:(id)sender;
 - (IBAction)GoldUpgrade:(id)sender;
 - (IBAction)DamageUpgrade:(id)sender;
+- (IBAction)Info:(id)sender;
+- (IBAction)tweetTapped:(id)sender;
 
 @end

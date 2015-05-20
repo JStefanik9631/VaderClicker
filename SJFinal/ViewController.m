@@ -8,8 +8,8 @@
 
 #import "ViewController.h"
 #import "Audio.h"
+#import <Social/Social.h>
 @interface ViewController ()
-
 @property (strong, nonatomic) Audio *audioController;
 
 @end
@@ -17,10 +17,12 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-
     [super viewDidLoad];
+    
     self.audioController = [[Audio alloc] init];
     [self.audioController tryPlayMusic];
+    
+    
     _killCount = 0;
     _level = 1;
     _monsterHP = 15;
@@ -137,6 +139,30 @@
         int temp2 = 200*_damageUpgradeLevel;
         temp = [NSString stringWithFormat:@"%d", temp2];
         _damageUpgradeCost.text = temp;
+    }
+}
+
+- (IBAction)Info:(id)sender {
+    [self.audioController stop];
+}
+
+- (IBAction)tweetTapped:(id)sender
+{
+    if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter])
+    {
+        SLComposeViewController *tweetSheet = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+        [tweetSheet setInitialText:@"I am playing Vader Clicker and it rocks!"];
+        [self presentViewController:tweetSheet animated:YES completion:nil];
+    }
+    else
+    {
+        UIAlertView *alertView = [[UIAlertView alloc]
+                                  initWithTitle:@"Sorry"
+                                  message:@"You can't send a tweet right now, make sure your device has an internet connection and you have at least one Twitter account setup"
+                                  delegate:self
+                                  cancelButtonTitle:@"OK"
+                                  otherButtonTitles:nil];
+        [alertView show];
     }
 }
 @end
