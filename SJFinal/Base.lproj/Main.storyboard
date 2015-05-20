@@ -12,7 +12,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.89999999999999991" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sequence_generator_starscape_hires.png" id="ddP-Pc-XcW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sequence_generator_starscape_hires.png" id="ddP-Pc-XcW">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -159,7 +159,7 @@
                                     <action selector="levelFour:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="61z-MD-jdY"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star-wars-toys-voice-changing-darth-vader-mask-1" id="w8o-Bn-fQp">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images.png" id="w8o-Bn-fQp">
                                 <rect key="frame" x="35" y="96" width="250" height="225"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -234,8 +234,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="images.png" width="284" height="177"/>
         <image name="sequence_generator_starscape_hires.png" width="400" height="400"/>
-        <image name="star-wars-toys-voice-changing-darth-vader-mask-1" width="1500" height="1500"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

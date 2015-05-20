@@ -18,6 +18,8 @@
 		3F2711461B0CDC630086AA6D /* Vader.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2711451B0CDC630086AA6D /* Vader.caf */; };
 		3FDC4A2F1B0D084B005F168B /* Galactic_empire_emblem.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC4A2D1B0D084B005F168B /* Galactic_empire_emblem.png */; };
 		3FDC4A301B0D084B005F168B /* sequence_generator_starscape_hires.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC4A2E1B0D084B005F168B /* sequence_generator_starscape_hires.png */; };
+		3FDC4A321B0D0CBC005F168B /* darth-vader-malcolm-porter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC4A311B0D0CBC005F168B /* darth-vader-malcolm-porter.jpg */; };
+		3FDC4A341B0D0D25005F168B /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC4A331B0D0D25005F168B /* images.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3F2711451B0CDC630086AA6D /* Vader.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Vader.caf; path = ../../Vader.caf; sourceTree = "<group>"; };
 		3FDC4A2D1B0D084B005F168B /* Galactic_empire_emblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Galactic_empire_emblem.png; path = ../../Galactic_empire_emblem.png; sourceTree = "<group>"; };
 		3FDC4A2E1B0D084B005F168B /* sequence_generator_starscape_hires.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sequence_generator_starscape_hires.png; path = ../../sequence_generator_starscape_hires.png; sourceTree = "<group>"; };
+		3FDC4A311B0D0CBC005F168B /* darth-vader-malcolm-porter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "darth-vader-malcolm-porter.jpg"; path = "../../darth-vader-malcolm-porter.jpg"; sourceTree = "<group>"; };
+		3FDC4A331B0D0D25005F168B /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = images.png; path = ../../../Downloads/images.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				3F2711451B0CDC630086AA6D /* Vader.caf */,
+				3FDC4A311B0D0CBC005F168B /* darth-vader-malcolm-porter.jpg */,
 				3FDC4A2D1B0D084B005F168B /* Galactic_empire_emblem.png */,
+				3FDC4A331B0D0D25005F168B /* images.png */,
 				3FDC4A2E1B0D084B005F168B /* sequence_generator_starscape_hires.png */,
 				3F0196281AFA62C00096BEDA /* Info.plist */,
 				3F0196291AFA62C00096BEDA /* main.m */,
@@ -214,7 +220,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FDC4A2F1B0D084B005F168B /* Galactic_empire_emblem.png in Resources */,
+				3FDC4A321B0D0CBC005F168B /* darth-vader-malcolm-porter.jpg in Resources */,
 				3F0196331AFA62C00096BEDA /* Main.storyboard in Resources */,
+				3FDC4A341B0D0D25005F168B /* images.png in Resources */,
 				3F0196381AFA62C00096BEDA /* LaunchScreen.xib in Resources */,
 				3FDC4A301B0D084B005F168B /* sequence_generator_starscape_hires.png in Resources */,
 				3F0196351AFA62C00096BEDA /* Images.xcassets in Resources */,
