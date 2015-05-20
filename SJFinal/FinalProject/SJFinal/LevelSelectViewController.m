@@ -1,18 +1,18 @@
 //
-//  UpgradeViewController.m
+//  LevelSelectViewController.m
 //  SJFinal
 //
 //  Created by Student on 5/6/15.
 //  Copyright (c) 2015 shp. All rights reserved.
 //
 
-#import "UpgradeViewController.h"
+#import "LevelSelectViewController.h"
 
-@interface UpgradeViewController ()
+@interface LevelSelectViewController ()
 
 @end
 
-@implementation UpgradeViewController
+@implementation LevelSelectViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -14,8 +14,8 @@
 		3F0196351AFA62C00096BEDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0196341AFA62C00096BEDA /* Images.xcassets */; };
 		3F0196381AFA62C00096BEDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F0196361AFA62C00096BEDA /* LaunchScreen.xib */; };
 		3F0196441AFA62C10096BEDA /* SJFinalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0196431AFA62C10096BEDA /* SJFinalTests.m */; };
-		3F2711441B0CD68A0086AA6D /* Audio.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2711431B0CD68A0086AA6D /* Audio.m */; };
-		3F2711461B0CDC630086AA6D /* Vader.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2711451B0CDC630086AA6D /* Vader.caf */; };
+		3F01964F1AFA64320096BEDA /* LevelSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F01964E1AFA64320096BEDA /* LevelSelectViewController.m */; };
+		3F0196521AFA66590096BEDA /* UpgradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0196511AFA66590096BEDA /* UpgradeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +42,10 @@
 		3F01963D1AFA62C10096BEDA /* SJFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0196421AFA62C10096BEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F0196431AFA62C10096BEDA /* SJFinalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJFinalTests.m; sourceTree = "<group>"; };
-		3F2711421B0CD68A0086AA6D /* Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Audio.h; sourceTree = "<group>"; };
-		3F2711431B0CD68A0086AA6D /* Audio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Audio.m; sourceTree = "<group>"; };
-		3F2711451B0CDC630086AA6D /* Vader.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Vader.caf; path = ../../Vader.caf; sourceTree = "<group>"; };
+		3F01964D1AFA64320096BEDA /* LevelSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectViewController.h; sourceTree = "<group>"; };
+		3F01964E1AFA64320096BEDA /* LevelSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSelectViewController.m; sourceTree = "<group>"; };
+		3F0196501AFA66590096BEDA /* UpgradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpgradeViewController.h; sourceTree = "<group>"; };
+		3F0196511AFA66590096BEDA /* UpgradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpgradeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +88,14 @@
 			isa = PBXGroup;
 			children = (
 				3F01962B1AFA62C00096BEDA /* AppDelegate.h */,
-				3F2711421B0CD68A0086AA6D /* Audio.h */,
-				3F2711431B0CD68A0086AA6D /* Audio.m */,
 				3F01962C1AFA62C00096BEDA /* AppDelegate.m */,
 				3F01962E1AFA62C00096BEDA /* ViewController.h */,
 				3F01962F1AFA62C00096BEDA /* ViewController.m */,
 				3F0196311AFA62C00096BEDA /* Main.storyboard */,
+				3F0196501AFA66590096BEDA /* UpgradeViewController.h */,
+				3F0196511AFA66590096BEDA /* UpgradeViewController.m */,
+				3F01964D1AFA64320096BEDA /* LevelSelectViewController.h */,
+				3F01964E1AFA64320096BEDA /* LevelSelectViewController.m */,
 				3F0196341AFA62C00096BEDA /* Images.xcassets */,
 				3F0196361AFA62C00096BEDA /* LaunchScreen.xib */,
 				3F0196271AFA62C00096BEDA /* Supporting Files */,
@@ -103,7 +106,6 @@
 		3F0196271AFA62C00096BEDA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3F2711451B0CDC630086AA6D /* Vader.caf */,
 				3F0196281AFA62C00096BEDA /* Info.plist */,
 				3F0196291AFA62C00096BEDA /* main.m */,
 			);
@@ -210,7 +212,6 @@
 				3F0196331AFA62C00096BEDA /* Main.storyboard in Resources */,
 				3F0196381AFA62C00096BEDA /* LaunchScreen.xib in Resources */,
 				3F0196351AFA62C00096BEDA /* Images.xcassets in Resources */,
-				3F2711461B0CDC630086AA6D /* Vader.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,8 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F2711441B0CD68A0086AA6D /* Audio.m in Sources */,
 				3F0196301AFA62C00096BEDA /* ViewController.m in Sources */,
+				3F01964F1AFA64320096BEDA /* LevelSelectViewController.m in Sources */,
+				3F0196521AFA66590096BEDA /* UpgradeViewController.m in Sources */,
 				3F01962D1AFA62C00096BEDA /* AppDelegate.m in Sources */,
 				3F01962A1AFA62C00096BEDA /* main.m in Sources */,
 			);
@@ -422,7 +424,6 @@
 				3F0196491AFA62C10096BEDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		3F01964A1AFA62C10096BEDA /* Build configuration list for PBXNativeTarget "SJFinalTests" */ = {
 			isa = XCConfigurationList;
@@ -431,7 +432,6 @@
 				3F01964C1AFA62C10096BEDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

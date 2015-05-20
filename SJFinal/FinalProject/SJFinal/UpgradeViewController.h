@@ -9,8 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UpgradeViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIButton *goldUpgrade;
-@property (strong, nonatomic) IBOutlet UIButton *damageUpgrade;
-
 
 @end

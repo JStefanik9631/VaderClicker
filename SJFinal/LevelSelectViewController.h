@@ -10,4 +10,10 @@
 
 @interface LevelSelectViewController : UIViewController
 
+@property int level;
+@property (strong, nonatomic) IBOutlet UITextField *levelNumber;
+
+
+- (IBAction)setLevel:(id)sender;
+
 @end
